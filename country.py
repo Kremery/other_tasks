@@ -20,7 +20,7 @@ country_value_start = country_tag_index + country_tag_size
 print("Start: ", country_value_start)
 country = ''
 
-
+#I am working here to return the name of all countries
 while i == 0:
 	for char in response[country_value_start:]:
 		if char != '<':
